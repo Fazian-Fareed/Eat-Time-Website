@@ -1,0 +1,217 @@
+ /* CSS for screens between 767px and 991px */
+ @media screen and (min-width: 767px) and (max-width: 991px) {
+     .first-sec {
+         margin: 15px 25px;
+     }
+
+     .first-sec .right img {
+         width: 80%;
+         margin-left: 20%;
+     }
+
+     .cards-container {
+         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+     }
+
+
+     .Section-Two .Delivery-icons {
+         flex-wrap: wrap;
+
+     }
+
+     .Partner-logo .logo-image {
+         flex-wrap: wrap;
+
+     }
+
+     .footer-container {
+         flex-direction: column;
+         gap: 30px;
+         font-size: 30px;
+     }
+
+ }
+
+ @media (max-width: 767px) {
+     nav .nav-toggle {
+         display: block;
+         margin-right: 20px;
+         font-size: 25px;
+         color: black;
+     }
+
+     nav ul {
+         display: none;
+     }
+
+     hr {
+
+         height: 2px;
+
+     }
+
+     .first-sec {
+         /*flex-direction:column-reverse;  */
+         flex-direction: column;
+         width: 100%;
+     }
+
+     .first-sec .right img {
+         width: 336px;
+     }
+
+     .first-sec .left h1 {
+         font-size: 30px;
+
+     }
+
+     .first-sec .left .left-content {
+         font-size: 20px;
+         font-family: sans-serif;
+     }
+
+     .first-sec .left .button {
+         display: flex;
+         gap: 5px;
+     }
+
+     .theline {
+         margin: 10px 0px;
+     }
+
+     .theline h1 {
+         font-size: 25px;
+     }
+
+     .line1 {
+         height: 3px;
+         width: 40px;
+         background: orange;
+         margin: 0 8px;
+         border-left: 18px solid black;
+     }
+
+     .line2 {
+         height: 3px;
+         width: 40px;
+         background: orange;
+         margin: 0 8px;
+         border-right: 18px solid black;
+     }
+
+
+     /*.Cards .description {
+         flex-direction: column;
+     }*/
+     .cards-container {
+         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+         gap: 10px;
+     }
+    
+     .Cards .description .fa-solid,
+     .fas {
+         display: none;
+     }
+     .Cards .description p img {
+        width: 18px;
+    }
+
+     .Section-Two .Delivery-icons {
+         flex-wrap: wrap;
+
+     }
+     .Section-Two .Delivery-icons .fa-solid {
+        font-size: 37px;
+    }
+    .Section-Two .Delivery-icons h1 {
+        font-size: 20px;
+        margin-left: 2px;
+    }
+
+     .Section-three form {
+         width: 70%
+     }
+
+     .Section-three input,
+     textarea {
+         font-size: 10px;
+     }
+
+
+
+
+
+
+
+
+
+     .Testinomial {
+         flex-direction: column;
+         padding: 15px;
+     }
+
+     .Testinomial .image {
+         padding: 0px 21px;
+         width: auto;
+     }
+
+     .Testinomial p {
+         font-size: 13px;
+     }
+
+     .Testinomial .fa-solid {
+         font-weight: 900;
+         font-size: 25px;
+     }
+
+     .Testinomial .content h2 {
+         font-size: 20px;
+     }
+
+     .Partner-logo .logo-image {
+         flex-wrap: wrap;
+     }
+
+     .Partner-logo .logo-image img {
+         width: 120px;
+     }
+
+
+
+
+     .footer-container {
+         flex-direction: column;
+         gap: 10px;
+
+
+     }
+
+     .footer-item img {
+         width: 6rem;
+     }
+
+     .footer-item h1 {
+         font-size: 1.2rem;
+         border-bottom: 1px solid orange;
+         margin-bottom: 3%;
+
+     }
+
+     .footer-item ul li a {
+         font-size: 1rem;
+
+     }
+
+     .footer-item ul li a:hover {
+         border-bottom: 1px solid #ffffff;
+     }
+
+     .footer-item ul li span {
+         font-size: 1rem;
+     }
+
+     footer p {
+         font-size: 1rem;
+     }
+
+ }
